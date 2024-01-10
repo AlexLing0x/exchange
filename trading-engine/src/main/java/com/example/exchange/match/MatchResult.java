@@ -1,6 +1,6 @@
 package com.example.exchange.match;
 
-import com.example.exchange.common.model.trade.OrderEntity;
+import com.example.exchange.model.trade.OrderEntity;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

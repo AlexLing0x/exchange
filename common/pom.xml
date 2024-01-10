@@ -5,11 +5,13 @@
 	<parent>
 		<groupId>com.example.exchange</groupId>
 		<artifactId>parent</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>1.0.0</version>
 		<!-- Parent POM的相对路径 -->
 		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
+
 	<artifactId>common</artifactId>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>

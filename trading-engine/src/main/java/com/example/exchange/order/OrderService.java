@@ -1,9 +1,9 @@
 package com.example.exchange.order;
 
 import com.example.exchange.assets.AssetService;
-import com.example.exchange.common.enums.AssetEnum;
-import com.example.exchange.common.enums.Direction;
-import com.example.exchange.common.model.trade.OrderEntity;
+import com.example.exchange.enums.AssetEnum;
+import com.example.exchange.enums.Direction;
+import com.example.exchange.model.trade.OrderEntity;
 import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;

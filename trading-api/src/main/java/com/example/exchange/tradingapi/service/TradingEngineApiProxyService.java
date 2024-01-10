@@ -1,8 +1,8 @@
 package com.example.exchange.tradingapi.service;
 
-import com.example.exchange.common.ApiError;
-import com.example.exchange.common.ApiException;
-import com.example.exchange.common.support.LoggerSupport;
+import com.example.exchange.ApiError;
+import com.example.exchange.ApiException;
+import com.example.exchange.support.LoggerSupport;
 import okhttp3.*;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;

@@ -2,8 +2,8 @@ package com.example.exchange.clearing;
 
 import com.example.exchange.assets.AssetService;
 import com.example.exchange.assets.Transfer;
-import com.example.exchange.common.enums.AssetEnum;
-import com.example.exchange.common.model.trade.OrderEntity;
+import com.example.exchange.enums.AssetEnum;
+import com.example.exchange.model.trade.OrderEntity;
 import com.example.exchange.match.MatchDetailRecord;
 import com.example.exchange.match.MatchResult;
 import com.example.exchange.order.OrderService;

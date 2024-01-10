@@ -1,9 +1,9 @@
 package com.example.exchange.tradingapi.web.api;
 
-import com.example.exchange.common.bean.TransferRequestBean;
-import com.example.exchange.common.enums.UserType;
-import com.example.exchange.common.message.event.TransferEvent;
-import com.example.exchange.common.support.AbstractApiController;
+import com.example.exchange.bean.TransferRequestBean;
+import com.example.exchange.enums.UserType;
+import com.example.exchange.message.event.TransferEvent;
+import com.example.exchange.support.AbstractApiController;
 import com.example.exchange.tradingapi.service.SendEventService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;

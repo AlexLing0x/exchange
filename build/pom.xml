@@ -6,19 +6,22 @@
 
     <groupId>org.example.exchange</groupId>
     <artifactId>build</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>pom</packaging>
     <name>build</name>
 
     <modules>
         <module>../common</module>
+        <module>../eureka-server</module>
         <module>../config</module>
         <module>../parent</module>
-        <module>../push</module>
         <module>../quotation</module>
         <module>../trading-api</module>
         <module>../trading-engine</module>
         <module>../trading-sequencer</module>
+        <module>../push</module>
         <module>../ui</module>
     </modules>
+
+
 </project>

@@ -1,9 +1,9 @@
 package com.example.exchange.tradingapi.service;
 
-import com.example.exchange.common.bean.SimpleMatchDetailRecord;
-import com.example.exchange.common.model.trade.MatchDetailEntity;
-import com.example.exchange.common.model.trade.OrderEntity;
-import com.example.exchange.common.support.AbstractDbService;
+import com.example.exchange.bean.SimpleMatchDetailRecord;
+import com.example.exchange.model.trade.MatchDetailEntity;
+import com.example.exchange.model.trade.OrderEntity;
+import com.example.exchange.support.AbstractDbService;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

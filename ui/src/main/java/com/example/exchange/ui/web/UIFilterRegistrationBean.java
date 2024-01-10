@@ -1,9 +1,9 @@
 package com.example.exchange.ui.web;
 
-import com.example.exchange.common.UserContext;
-import com.example.exchange.common.bean.AuthToken;
-import com.example.exchange.common.support.AbstractFilter;
-import com.example.exchange.common.user.UserService;
+import com.example.exchange.UserContext;
+import com.example.exchange.bean.AuthToken;
+import com.example.exchange.support.AbstractFilter;
+import com.example.exchange.user.UserService;
 import jakarta.annotation.PostConstruct;
 import jakarta.servlet.*;
 import jakarta.servlet.http.HttpServletRequest;

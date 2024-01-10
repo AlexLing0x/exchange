@@ -1,7 +1,7 @@
 package com.example.exchange.quotation.service;
 
-import com.example.exchange.common.model.quotation.*;
-import com.example.exchange.common.support.AbstractDbService;
+import com.example.exchange.model.quotation.*;
+import com.example.exchange.support.AbstractDbService;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 

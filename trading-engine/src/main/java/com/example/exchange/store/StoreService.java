@@ -1,10 +1,10 @@
 package com.example.exchange.store;
 
-import com.example.exchange.common.db.DbTemplate;
-import com.example.exchange.common.message.event.AbstractEvent;
-import com.example.exchange.common.messageing.MessageTypes;
-import com.example.exchange.common.model.trade.EventEntity;
-import com.example.exchange.common.model.support.EntitySupport;
+import com.example.exchange.db.DbTemplate;
+import com.example.exchange.message.event.AbstractEvent;
+import com.example.exchange.messageing.MessageTypes;
+import com.example.exchange.model.trade.EventEntity;
+import com.example.exchange.model.support.EntitySupport;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;

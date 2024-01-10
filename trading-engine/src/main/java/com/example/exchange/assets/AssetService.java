@@ -1,7 +1,7 @@
 package com.example.exchange.assets;
 
-import com.example.exchange.common.enums.AssetEnum;
-import com.example.exchange.common.support.LoggerSupport;
+import com.example.exchange.enums.AssetEnum;
+import com.example.exchange.support.LoggerSupport;
 import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;

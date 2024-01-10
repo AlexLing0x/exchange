@@ -1,10 +1,10 @@
 package com.example.exchange.tradingsequencer.sequencer;
 
-import com.example.exchange.common.message.event.AbstractEvent;
-import com.example.exchange.common.messageing.MessageTypes;
-import com.example.exchange.common.model.trade.EventEntity;
-import com.example.exchange.common.model.trade.UniqueEventEntity;
-import com.example.exchange.common.support.AbstractDbService;
+import com.example.exchange.message.event.AbstractEvent;
+import com.example.exchange.messageing.MessageTypes;
+import com.example.exchange.model.trade.EventEntity;
+import com.example.exchange.model.trade.UniqueEventEntity;
+import com.example.exchange.support.AbstractDbService;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 

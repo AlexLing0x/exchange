@@ -1,8 +1,8 @@
 package com.example.exchange.push;
 
-import com.example.exchange.common.bean.AuthToken;
-import com.example.exchange.common.message.NotificationMessage;
-import com.example.exchange.common.util.JsonUtil;
+import com.example.exchange.bean.AuthToken;
+import com.example.exchange.message.NotificationMessage;
+import com.example.exchange.util.JsonUtil;
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.eventbus.EventBus;
 import io.vertx.core.http.HttpServer;

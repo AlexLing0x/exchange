@@ -1,9 +1,9 @@
 package com.example.exchange.match;
 
-import com.example.exchange.common.bean.OrderBookBean;
-import com.example.exchange.common.enums.Direction;
-import com.example.exchange.common.enums.OrderStatus;
-import com.example.exchange.common.model.trade.OrderEntity;
+import com.example.exchange.bean.OrderBookBean;
+import com.example.exchange.enums.Direction;
+import com.example.exchange.enums.OrderStatus;
+import com.example.exchange.model.trade.OrderEntity;
 import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;

@@ -1,7 +1,7 @@
 package com.example.exchange.push;
 
-import com.example.exchange.common.redis.RedisCache;
-import com.example.exchange.common.support.LoggerSupport;
+import com.example.exchange.redis.RedisCache;
+import com.example.exchange.support.LoggerSupport;
 import io.vertx.core.Vertx;
 import io.vertx.redis.client.Command;
 import io.vertx.redis.client.Redis;

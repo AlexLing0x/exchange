@@ -1,8 +1,8 @@
 package com.example.exchange.match;
 
-import com.example.exchange.common.bean.OrderBookItemBean;
-import com.example.exchange.common.enums.Direction;
-import com.example.exchange.common.model.trade.OrderEntity;
+import com.example.exchange.bean.OrderBookItemBean;
+import com.example.exchange.enums.Direction;
+import com.example.exchange.model.trade.OrderEntity;
 
 import java.util.*;
 

@@ -1,16 +1,16 @@
 package com.example.exchange.ui.web;
 
-import com.example.exchange.common.ApiException;
-import com.example.exchange.common.client.RestClient;
-import com.example.exchange.common.UserContext;
-import com.example.exchange.common.bean.AuthToken;
-import com.example.exchange.common.bean.TransferRequestBean;
-import com.example.exchange.common.enums.AssetEnum;
-import com.example.exchange.common.enums.UserType;
-import com.example.exchange.common.model.ui.UserProfileEntity;
-import com.example.exchange.common.support.LoggerSupport;
-import com.example.exchange.common.user.UserService;
-import com.example.exchange.common.util.HashUtil;
+import com.example.exchange.ApiException;
+import com.example.exchange.client.RestClient;
+import com.example.exchange.UserContext;
+import com.example.exchange.bean.AuthToken;
+import com.example.exchange.bean.TransferRequestBean;
+import com.example.exchange.enums.AssetEnum;
+import com.example.exchange.enums.UserType;
+import com.example.exchange.model.ui.UserProfileEntity;
+import com.example.exchange.support.LoggerSupport;
+import com.example.exchange.user.UserService;
+import com.example.exchange.util.HashUtil;
 import jakarta.annotation.PostConstruct;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

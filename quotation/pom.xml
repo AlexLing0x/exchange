@@ -5,18 +5,26 @@
     <parent>
         <groupId>com.example.exchange</groupId>
         <artifactId>parent</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0.0</version>
         <!-- Parent POM的相对路径 -->
         <relativePath>../parent/pom.xml</relativePath>
     </parent>
     <artifactId>quotation</artifactId>
 
     <dependencies>
+
         <dependency>
             <groupId>com.example.exchange</groupId>
             <artifactId>common</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
     </dependencies>
-
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 </project>

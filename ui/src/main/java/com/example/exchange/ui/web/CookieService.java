@@ -1,7 +1,7 @@
 package com.example.exchange.ui.web;
 
-import com.example.exchange.common.bean.AuthToken;
-import com.example.exchange.common.util.HttpUtil;
+import com.example.exchange.bean.AuthToken;
+import com.example.exchange.util.HttpUtil;
 import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

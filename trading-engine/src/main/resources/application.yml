@@ -1,5 +1,12 @@
+server:
+  port: ${APP_PORT:8002}
 spring:
   application:
     name: trading-engine
   config:
     import: configserver:${CONFIG_SERVER:http://localhost:8888}
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+

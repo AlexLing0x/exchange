@@ -1,0 +1,94 @@
+version: "3"
+services:
+  eureka-server:
+    container_name: eureka-server
+    build:
+      context: ./eureka-server
+    ports:
+      - "8761:8761"
+    networks:
+      - my_networks
+
+  config_server:
+    container_name: config_server
+    build:
+      context: ./config
+    ports:
+      - "8888:8888"
+    networks:
+      - my_networks
+    depends_on:
+      - eureka-server
+
+  push:
+    container_name: push
+    build:
+      context: /push
+    ports:
+      - "8006:8006"
+    networks:
+      - my_networks
+    depends_on:
+      - config_server
+
+  quotation:
+    container_name: quotation
+    build:
+      context: /quotation
+    ports:
+      - "8005:8005"
+    networks:
+      - my_networks
+    depends_on:
+      - config_server
+
+  trading-api:
+    container_name: trading-api
+    build:
+      context: /trading-api
+    ports:
+      - "8001:8001"
+    networks:
+      - my_networks
+    depends_on:
+      - config_server
+
+  trading-engine:
+    container_name: trading-engine
+    build:
+      context: /trading-engine
+    ports:
+      - "8002:8002"
+#    environment:
+#      - CONFIG_SERVER=config_server
+    networks:
+      - my_networks
+    depends_on:
+      - config_server
+      - eureka-server
+
+  trading-sequencer:
+    container_name: trading-sequencer
+    build:
+      context: /trading-sequencer
+    ports:
+      - "8003:8003"
+    networks:
+      - my_networks
+    depends_on:
+      - config_server
+
+  ui:
+    container_name: ui
+    build:
+      context: /ui
+    ports:
+      - "8000:8000"
+    networks:
+      - my_networks
+    depends_on:
+      - config_server
+
+networks:
+  my_networks:
+    driver: bridge

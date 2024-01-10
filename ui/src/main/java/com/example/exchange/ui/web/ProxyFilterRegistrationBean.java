@@ -1,11 +1,11 @@
 package com.example.exchange.ui.web;
 
-import com.example.exchange.common.ApiError;
-import com.example.exchange.common.ApiException;
-import com.example.exchange.common.client.RestClient;
-import com.example.exchange.common.UserContext;
-import com.example.exchange.common.bean.AuthToken;
-import com.example.exchange.common.support.AbstractFilter;
+import com.example.exchange.ApiError;
+import com.example.exchange.ApiException;
+import com.example.exchange.client.RestClient;
+import com.example.exchange.UserContext;
+import com.example.exchange.bean.AuthToken;
+import com.example.exchange.support.AbstractFilter;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.annotation.PostConstruct;
 import jakarta.servlet.*;

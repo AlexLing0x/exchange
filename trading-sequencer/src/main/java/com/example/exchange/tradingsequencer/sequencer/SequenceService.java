@@ -1,8 +1,8 @@
 package com.example.exchange.tradingsequencer.sequencer;
 
-import com.example.exchange.common.message.event.AbstractEvent;
-import com.example.exchange.common.messageing.*;
-import com.example.exchange.common.support.LoggerSupport;
+import com.example.exchange.message.event.AbstractEvent;
+import com.example.exchange.messageing.*;
+import com.example.exchange.support.LoggerSupport;
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;
 import org.apache.kafka.clients.consumer.Consumer;
