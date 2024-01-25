@@ -36,5 +36,5 @@
 
 ### 启动服务
 1. 终端进入build文件夹，运行`docker-compose up -d` 启动mysql、Kafka、redis、zookeeper
-2. 本地开发环境先config，再启动其他
+2. 本地开发环境先启动config服务，再启动其他模块
 3. docker环境，在项目根目录打开终端运行`docker-compose up -d`启动服务
